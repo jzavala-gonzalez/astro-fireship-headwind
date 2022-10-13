@@ -1,0 +1,18 @@
+---
+// Wow!
+
+import { BsPlus, BsFillLightningFill, BsGearFill } from 'react-icons/bs'
+import { FaFire, FaPoo } from 'react-icons/fa'
+
+import SideBarIcon from './SideBarIcon.astro';
+
+---
+
+<div class="fixed top-0 left-0 h-screen w-16 m-0
+            flex flex-col
+            bg-gray-900 text-white shadow-lg">
+    <SideBarIcon text='tooltip 💡'> <FaFire size='28'/> </SideBarIcon>
+    <SideBarIcon text='tooltip 💡'> <BsPlus size='32'/> </SideBarIcon>
+    <SideBarIcon text='tooltip 💡'> <BsFillLightningFill size='20'/> </SideBarIcon>
+    <SideBarIcon text='tooltip 💡'> <FaPoo size='20'/> </SideBarIcon>
+</div>
